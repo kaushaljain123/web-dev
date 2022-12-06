@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #f6f2ff;
+}
+
+.header {
+    background-color: #361274;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.logo {
+    background-color: #fff;
+    font-size: 35px;
+    color: #361274;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    width: 380px;
+    margin: 10px auto;
+}
+
+.paid-to {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.user-icons {
+    width: 40px;
+    height: 40px;
+    background-color: #361274;
+    stroke: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.paid-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-name-combo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow-icons {
+    width: 40px;
+    height: 40px;
+    stroke: #361274;
+}
+
+.powrd-img {
+    width: 100%;
+}
